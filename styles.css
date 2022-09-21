@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 500px;
+  width: 650px;
+  border-radius: 10px;
+}
+.card-right {
+  padding: 30px;
+}
+.prices {
+  display: flex;
+  flex-direction: row;
+}
+.perfume {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+button {
+  background-color: hsl(158, 36%, 37%);
+  border: 0;
+  width: 250px;
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: hsl(157, 45%, 20%);
+  border: 0;
+  width: 250px;
+  height: 50px;
+  color: white;
+}
