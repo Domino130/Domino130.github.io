@@ -16,6 +16,12 @@ body {
 .card-right {
   padding: 30px;
 }
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.7;
+}
 .prices {
   display: flex;
   flex-direction: row;
@@ -49,6 +55,10 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
+}
+.button-text {
+  margin-left: 15px;
 }
 button:hover {
   background-color: hsl(157, 45%, 20%);
@@ -56,4 +66,17 @@ button:hover {
   width: 250px;
   height: 50px;
   color: white;
+}
+
+.title {
+  font-family: "Fraunces", sans-serif;
+  color: hsl(212, 21%, 14%);
+  font-size: 35px;
+}
+
+.top {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 4px;
 }
